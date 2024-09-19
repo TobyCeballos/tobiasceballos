@@ -9,6 +9,7 @@ interface DataType {
     profession: string;
     name: string;
     imgSrc: string;
+    linkedin: string;
 }
 
 const postData: DataType[] = [
