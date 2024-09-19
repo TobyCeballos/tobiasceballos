@@ -26,14 +26,13 @@ const Banner = () => {
               <span className="text-cornflowerblue">a otro nivel.</span>
             </h3>
 
-            <div className="text-white focus-within:text-white flex flex-row-reverse input-shadow rounded-full pt-5 lg:pt-0">
+            
     <button
       type="button"
       className="p-3 lg:p-5 focus:outline-none focus:shadow-outline bg-teal-500 hover:bg-teal-400 duration-150 ease-in-out rounded-full"
     >
       Contactarse
     </button>
-</div>
           </div>
 
           <div className="col-span-6 flex justify-center">
