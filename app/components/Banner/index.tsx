@@ -29,7 +29,7 @@ const Banner = () => {
             
     <button
       type="button"
-      className="p-3 lg:p-5 bg-cornflowerblue focus:outline-none focus:shadow-outline bg-teal-500 hover:bg-teal-400 duration-150 ease-in-out rounded-full"
+      className="p-3 lg:p-5 bg-midnightblue focus:outline-none focus:shadow-outline bg-teal-500 hover:bg-teal-400 duration-150 ease-in-out rounded-full"
     >
       Contactarse
     </button>
