@@ -26,6 +26,7 @@ const postData: DataType[] = [
         profession: 'Asesor de Ventas & Co-founder',
         name: 'Luciano Paredes',
         imgSrc: '/assets/mentor/Lucho.png',
+        linkedin:"https://www.linkedin.com/in/luciano-paredes-519093317",
     },
     {
         profession: 'Founder & Desarrollador Fullstack',
@@ -131,7 +132,8 @@ export default class MultipleItems extends Component {
                                     <div className="relative">
                                         <Image src={items.imgSrc} alt="user-image" width={206} height={0} className="inline-block mb-12 m-auto rounded-full" />
                                         <div className="absolute right-[84px] bottom-[10px] bg-white rounded-full p-4">
-                                            <Image src={'/assets/mentor/linkedin.svg'} alt="linkedin-image" width={25} height={24} />
+                                            <a href={items.linkedin}/>
+                                            <Image src={'/assets/mentor/linkedin.svg'} alt="linkedin-image" width={25} height={24} /></a>
                                         </div>
                                     </div>
                                     <div className="-mt-10">
