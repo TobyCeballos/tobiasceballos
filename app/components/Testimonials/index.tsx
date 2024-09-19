@@ -102,7 +102,7 @@ export default class MultipleItems extends Component {
       <div className="pt-40 pb-10 sm:pb-32 lg:py-32" id="testimonial">
         <div className="sm:flex px-4 lg:px-8 mx-auto max-w-7xl justify-between items-center">
           <h3 className="text-midnightblue text-5xl lg:text-6xl font-bold mb-5 sm:mb-0 tracking-wide uppercase">
-            Servicios
+            Reseñas
           </h3>
         </div>
         <div className="mx-auto max-w-7xl lg:px-8">
