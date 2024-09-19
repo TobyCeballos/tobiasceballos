@@ -17,13 +17,13 @@ const postData: DataType[] = [
         profession: 'Founder & Desarrollador Fullstack',
         name: 'Tobias Ceballos',
         imgSrc: '/assets/mentor/Toby.png',
-        linkedin: 'https://www.linkedin.com/in/luciano-paredes-519093317',
+        linkedin: 'https://www.linkedin.com/',
     },
     {
         profession: 'Founder & Contadora',
         name: 'Luz Altamirano',
         imgSrc: '/assets/mentor/Luz.png',
-        linkedin: 'https://www.linkedin.com/in/luciano-paredes-519093317',
+        linkedin: 'https://www.linkedin.com/',
     },
     {
         profession: 'Asesor de Ventas & Co-founder',
@@ -35,13 +35,13 @@ const postData: DataType[] = [
         profession: 'Founder & Desarrollador Fullstack',
         name: 'Tobias Ceballos',
         imgSrc: '/assets/mentor/Toby.png',
-        linkedin:'https://www.linkedin.com/in/luciano-paredes-519093317',
+        linkedin:'https://www.linkedin.com/',
     },
     {
         profession: 'Founder & Contadora',
         name: 'Luz Altamirano',
         imgSrc: '/assets/mentor/Luz.png',
-        linkedin: 'https://www.linkedin.com/in/luciano-paredes-519093317',
+        linkedin: 'https://www.linkedin.com/',
     },
     {
         profession: 'Asesor de Ventas & Co-founder',
