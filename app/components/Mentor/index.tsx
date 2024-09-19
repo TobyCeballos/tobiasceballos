@@ -17,37 +17,37 @@ const postData: DataType[] = [
         profession: 'Founder & Desarrollador Fullstack',
         name: 'Tobias Ceballos',
         imgSrc: '/assets/mentor/Toby.png',
-        linkedin:"https://www.linkedin.com/in/luciano-paredes-519093317",
+        linkedin: "https://www.linkedin.com/in/luciano-paredes-519093317",
     },
     {
         profession: 'Founder & Contadora',
         name: 'Luz Altamirano',
         imgSrc: '/assets/mentor/Luz.png',
-        linkedin:"https://www.linkedin.com/in/luciano-paredes-519093317",
+        linkedin: "https://www.linkedin.com/in/luciano-paredes-519093317",
     },
     {
         profession: 'Asesor de Ventas & Co-founder',
         name: 'Luciano Paredes',
         imgSrc: '/assets/mentor/Lucho.png',
-        linkedin:"https://www.linkedin.com/in/luciano-paredes-519093317",
+        linkedin: "https://www.linkedin.com/in/luciano-paredes-519093317",
     },
     {
         profession: 'Founder & Desarrollador Fullstack',
         name: 'Tobias Ceballos',
         imgSrc: '/assets/mentor/Toby.png',
-        linkedin:"https://www.linkedin.com/in/luciano-paredes-519093317",
+        linkedin: "https://www.linkedin.com/in/luciano-paredes-519093317",
     },
     {
         profession: 'Founder & Contadora',
         name: 'Luz Altamirano',
         imgSrc: '/assets/mentor/Luz.png',
-        linkedin:"https://www.linkedin.com/in/luciano-paredes-519093317",
+        linkedin: "https://www.linkedin.com/in/luciano-paredes-519093317",
     },
     {
         profession: 'Asesor de Ventas & Co-founder',
         name: 'Luciano Paredes',
         imgSrc: '/assets/mentor/Lucho.png',
-        linkedin:"https://www.linkedin.com/in/luciano-paredes-519093317",
+        linkedin: "https://www.linkedin.com/in/luciano-paredes-519093317",
     },
 ]
 
@@ -58,7 +58,7 @@ function SampleNextArrow(props: { className: any; style: any; onClick: any; }) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", justifyContent: "center", position: 'absolute', alignItems: "center" , background: "#D5EFFA", padding: "28px", borderRadius: "30px", border: "1px solid #1A21BC" }}
+            style={{ ...style, display: "flex", justifyContent: "center", position: 'absolute', alignItems: "center", background: "#D5EFFA", padding: "28px", borderRadius: "30px", border: "1px solid #1A21BC" }}
             onClick={onClick}
         />
     );
@@ -69,22 +69,18 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any; }) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", justifyContent: "center", alignItems: "center" , background: "#D5EFFA", padding: "28px", borderRadius: "30px", border: "1px solid #1A21BC" }}
+            style={{ ...style, display: "flex", justifyContent: "center", alignItems: "center", background: "#D5EFFA", padding: "28px", borderRadius: "30px", border: "1px solid #1A21BC" }}
             onClick={onClick}
         />
     );
 }
 
-
-
 export default class MultipleItems extends Component {
-
     render() {
         const settings = {
             dots: false,
             infinite: true,
             slidesToShow: 3,
-            // centerMode: true,
             slidesToScroll: 1,
             arrows: false,
             autoplay: false,
@@ -124,7 +120,6 @@ export default class MultipleItems extends Component {
             ]
         };
 
-
         return (
             <div className="py-10 sm:py-24 bg-slate-600" id="mentor">
 
@@ -138,7 +133,7 @@ export default class MultipleItems extends Component {
                                     <div className="relative">
                                         <Image src={items.imgSrc} alt="user-image" width={206} height={0} className="inline-block mb-12 m-auto rounded-full" />
                                         <div className="absolute right-[84px] bottom-[10px] bg-white rounded-full p-4">
-                                            <a href={items.linkedin}/>
+                                            <a href={items.linkedin}>
                                                 <Image src={'/assets/mentor/linkedin.svg'} alt="linkedin-image" width={25} height={24} />
                                             </a>
                                         </div>
@@ -154,7 +149,6 @@ export default class MultipleItems extends Component {
 
                 </div>
             </div>
-
         );
     }
 }
