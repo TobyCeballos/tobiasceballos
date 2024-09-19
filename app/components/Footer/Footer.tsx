@@ -100,9 +100,9 @@ const footer = () => {
             <div className='py-10 md:flex items-center justify-between border-t border-t-gray-blue'>
                 <h4 className='text-slate-200 opacity-75 text-sm text-center md:text-start font-normal'>Tobias Ceballos @ 2024 | Todos los derechos reservados</h4>
                 <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
-                    <h4 className='text-slate-200 opacity-75 text-sm font-normal'><Link href="/" target="_blank">Privacy policy</Link></h4>
+                    <h4 className='text-slate-200 opacity-75 text-sm font-normal'><Link href="/" target="_blank">Política de privacidad</Link></h4>
                     <div className="h-5 bg-slate-200 opacity-25 w-0.5"></div>
-                    <h4 className='text-slate-200 opacity-75 text-sm font-normal'><Link href="/" target="_blank">Terms & conditions</Link></h4>
+                    <h4 className='text-slate-200 opacity-75 text-sm font-normal'><Link href="/" target="_blank">Terminos y condiciones</Link></h4>
                 </div>
             </div>
         </div>
