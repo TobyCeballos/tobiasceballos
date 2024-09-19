@@ -139,7 +139,8 @@ export default class MultipleItems extends Component {
                                         <Image src={items.imgSrc} alt="user-image" width={206} height={0} className="inline-block mb-12 m-auto rounded-full" />
                                         <div className="absolute right-[84px] bottom-[10px] bg-white rounded-full p-4">
                                             <a href={items.linkedin}/>
-                                            <Image src={'/assets/mentor/linkedin.svg'} alt="linkedin-image" width={25} height={24} /></a>
+                                                <Image src={'/assets/mentor/linkedin.svg'} alt="linkedin-image" width={25} height={24} />
+                                            </a>
                                         </div>
                                     </div>
                                     <div className="-mt-10">
