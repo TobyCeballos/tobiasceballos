@@ -9,7 +9,7 @@ interface DataType {
     profession: string;
     name: string;
     imgSrc: string;
-    linkedin: string;
+    link: string;
 }
 
 const postData: DataType[] = [
@@ -17,37 +17,37 @@ const postData: DataType[] = [
         profession: 'Founder & Desarrollador Fullstack',
         name: 'Tobias Ceballos',
         imgSrc: '/assets/mentor/Toby.png',
-        linkedin: 'https://www.linkedin.com/',
+        link: 'https://www.instagram.com/toby_ceballos',
     },
     {
         profession: 'Founder & Contadora',
         name: 'Luz Altamirano',
         imgSrc: '/assets/mentor/Luz.png',
-        linkedin: 'https://www.linkedin.com/',
+        link: 'https://www.instagram.com/luz.alt',
     },
     {
         profession: 'Asesor de Ventas & Co-founder',
         name: 'Luciano Paredes',
         imgSrc: '/assets/mentor/Lucho.png',
-        linkedin: 'https://www.linkedin.com/in/luciano-paredes-519093317',
+        link: 'https://www.instagram.com/tanoparedesl/',
     },
     {
         profession: 'Founder & Desarrollador Fullstack',
         name: 'Tobias Ceballos',
         imgSrc: '/assets/mentor/Toby.png',
-        linkedin:'https://www.linkedin.com/',
+        link: 'https://www.instagram.com/toby_ceballos',
     },
     {
         profession: 'Founder & Contadora',
         name: 'Luz Altamirano',
         imgSrc: '/assets/mentor/Luz.png',
-        linkedin: 'https://www.linkedin.com/',
+        link: 'https://www.instagram.com/luz.alt',
     },
     {
         profession: 'Asesor de Ventas & Co-founder',
         name: 'Luciano Paredes',
         imgSrc: '/assets/mentor/Lucho.png',
-        linkedin: 'https://www.linkedin.com/in/luciano-paredes-519093317',
+        link: 'https://www.instagram.com/tanoparedesl/',
     },
 ]
 
@@ -133,8 +133,8 @@ export default class MultipleItems extends Component {
                                     <div className="relative">
                                         <Image src={items.imgSrc} alt="user-image" width={206} height={0} className="inline-block mb-12 m-auto rounded-full" />
                                         <div className="absolute right-[84px] bottom-[10px] bg-white rounded-full p-4">
-                                            <a href={items.linkedin}>
-                                                <Image src={'/assets/mentor/linkedin.svg'} alt="linkedin-image" width={25} height={24} />
+                                            <a href={items.link}>
+                                                <Image src={'/assets/mentor/instagram.svg'} alt="linkedin-image" width={25} height={24} />
                                             </a>
                                         </div>
                                     </div>
