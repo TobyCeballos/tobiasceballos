@@ -26,13 +26,12 @@ const Banner = () => {
               <span className="text-cornflowerblue">a otro nivel.</span>
             </h3>
 
-            
-    <button
-      type="button"
-      className="p-3 lg:p-5 bg-midnightblue focus:outline-none focus:shadow-outline bg-teal-500 hover:bg-teal-400 duration-150 ease-in-out rounded-full"
-    >
-      Contactarse
-    </button>
+            <button
+              type="button"
+              className="py-3 px-8 w-fit bg-midnightblue focus:outline-none focus:shadow-outline bg-teal-500 hover:bg-teal-400 duration-150 ease-in-out rounded-full"
+            >
+              Contactarse &gt;
+            </button>
           </div>
 
           <div className="col-span-6 flex justify-center">
@@ -44,44 +43,44 @@ const Banner = () => {
             />
           </div>
         </div>
-          <div className="flex items-center justify-between pt-20 w-full lg:pt-4">
-            <div className="flex gap-2">
-              <Image
-                src="/assets/banner/check-circle.svg"
-                alt="check-image"
-                width={30}
-                height={30}
-                className="smallImage"
-              />
-              <p className="text-sm sm:text-lg font-normal text-gray-200">
-                +2 años de experiencia
-              </p>
-            </div>
-            <div className="flex gap-2">
-              <Image
-                src="/assets/banner/check-circle.svg"
-                alt="check-image"
-                width={30}
-                height={30}
-                className="smallImage"
-              />
-              <p className="text-sm sm:text-lg font-normal text-gray-200">
-                Cobertura a nivel mundial
-              </p>
-            </div>
-            <div className="flex gap-2">
-              <Image
-                src="/assets/banner/check-circle.svg"
-                alt="check-image"
-                width={30}
-                height={30}
-                className="smallImage"
-              />
-              <p className="text-sm sm:text-lg font-normal text-gray-200">
-                +40% de productividad
-              </p>
-            </div>
+        <div className="flex items-center justify-between pt-20 w-full lg:pt-4">
+          <div className="flex gap-2">
+            <Image
+              src="/assets/banner/check-circle.svg"
+              alt="check-image"
+              width={30}
+              height={30}
+              className="smallImage"
+            />
+            <p className="text-sm sm:text-lg font-normal text-gray-200">
+              +2 años de experiencia
+            </p>
           </div>
+          <div className="flex gap-2">
+            <Image
+              src="/assets/banner/check-circle.svg"
+              alt="check-image"
+              width={30}
+              height={30}
+              className="smallImage"
+            />
+            <p className="text-sm sm:text-lg font-normal text-gray-200">
+              Cobertura a nivel mundial
+            </p>
+          </div>
+          <div className="flex gap-2">
+            <Image
+              src="/assets/banner/check-circle.svg"
+              alt="check-image"
+              width={30}
+              height={30}
+              className="smallImage"
+            />
+            <p className="text-sm sm:text-lg font-normal text-gray-200">
+              +40% de productividad
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

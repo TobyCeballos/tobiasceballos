@@ -129,12 +129,6 @@ export default class MultipleItems extends Component {
             <h3 className="text-midnightblue text-5xl lg:text-6xl font-bold mb-5 sm:mb-0 tracking-wide uppercase">
               Servicios
             </h3>
-            <Link
-              href={"/"}
-              className="hidden sm:inline-block text-neongreen text-lg font-medium transition duration-200 hover:text-white"
-            >
-              Explorar servicios &gt;
-            </Link>
           </div>
 
           {/* Slider */}
